@@ -3759,3 +3759,7 @@
 			}
 
 	}
+/*Text LineCode */
+	section.box p{
+		text-align: justify !important;
+	}
