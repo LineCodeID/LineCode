@@ -12,6 +12,13 @@
       <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
       <link rel="stylesheet" href="assets/css/main.css" />
       <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+
+      <!-- Super Simple Slider CSS -->
+      <link rel="stylesheet" href="assets/css/sss.css">
+
+      <!-- Swiper -->
+      <link rel="stylesheet" href="assets/css/swiper.css">
+
    </head>
    <body class="landing">
       <div id="page-wrapper">
@@ -28,10 +35,10 @@
                             <li>
                                 <a href="#" class="icon fa-angle-down">Servicios</a>
                                 <ul>
-                                        <li><a href="#">Desarrollo Web</a></li>
-                                        <li><a href="#">E-Comerce</a></li>
-                                        <li><a href="#">Marketing Digital</a></li>
-                                        <li><a href="#">Diseño de Imagen</a></li>
+                                  <li><a href="#">Desarrollo Web</a></li>
+                                  <li><a href="#">E-Comerce</a></li>
+                                  <li><a href="#">Marketing Digital</a></li>
+                                  <li><a href="#">Diseño de Imagen</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -48,10 +55,15 @@
 
                     <section class="box special">
                         <header class="major">
-                            <h2>DA VIDA A TU MARCA CON UN DISEÑO WEB IMPACTANTE </h2> 
+                            <h2>DA VIDA A TU MARCA CON UN DISEÑO WEB IMPACTANTE </h2>
                             <p>El diseño web se ha vuelto una parte esencial de un negocio. Consolidamos tu presencia en internet a través de nuestros servicios de diseño de páginas web, desarrollo web, tienda online y posicionamiento web.</p>
                         </header>
-                        <span class="image featured"><img src="images/pic01.jpg" alt="" /></span>
+
+                        <div class="slider">
+                          <img src="images/banners/banner-1.jpg"/>
+                          <img src="images/banners/banner-2.jpg"/>
+                          <img src="images/banners/banner-3.jpg"/>
+                        </div>
                     </section>
 
                     <section class="box special features">
@@ -81,8 +93,47 @@
                         </div>
                     </section>
 
+                    <!-- <section class="box special features">
+                      <div class="features-row">
+
+                        <div class="swiper-container">
+                          <div class="swiper-wrapper">
+                            <section class="swiper-slide">
+                              <span class="icon major fa fa-users accent2"></span>
+                              <h3>ACERCA DE NOSOTROS</h3>
+                              <p>La idea de crear <b>LineCode</b> surgió al ver que en México la calidad del diseño de páginas web y aplicaciones web, no se han desarrollado como en otros países pues no se aprovechan las nuevas técnicas y tecnologías que van surgiendo. Por esa razón, nos hemos planteado garantizar el éxito de tu presencia en internet a través de nuestros servicios para negocios de todos los tamaños.</p>
+                            </section>
+
+                            <section class="swiper-slide">
+                              <span class="icon major fa-line-chart accent3"></span>
+                              <h3>TECNOLOGÍA DE VANGUARDIA</h3>
+                              <p>Nos encanta aprender cada día y poder ofrecer lo último en tecnología en cada proyecto que realizamos.</p>
+                            </section>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="features-row">
+                        <div class="swiper-container">
+                          <div class="swiper-wrapper">
+                            <section class="swiper-slide">
+                                <span class="icon major fa-heartbeat accent4"></span>
+                                <h3>PASIÓN POR CREAR E INNOVAR</h3>
+                                <p>Soñamos en grande, por eso compartimos la pasión por buscar nuevos retos que nos permiten mejorar, aprender y lograr aún más.</p>
+                            </section>
+
+                            <section class="swiper-slide">
+                              <span class="icon major fa-cubes accent5"></span>
+                              <h3>CALIDAD Y SATISFACCIÓN</h3>
+                              <p>Nos orgullece decir que, hemos creado relaciones duraderas de confianza con nuestros clientes.</p>
+                            </section>
+                          </div>
+                        </div>
+                      </div>
+                    </section> -->
+
                     <div class="row">
-                        
+
                         <div class="6u 12u(narrower)">
 
                             <section class="box special">
@@ -141,7 +192,7 @@
                         <li><a href="aviso.html" target="_blank"> Aviso de Privacidad</a></li>
                         <li><a href="politicas.html" target="_blank"> Ploliticas de Servicio</a></li>
                         <li>Lun - Vier: 10:00 - 17:00</li>
-                        
+
                         <li>Design: <a href="index.html">LineCode</a></li>
                     </ul>
                 </footer>
@@ -156,5 +207,12 @@
             <script src="assets/js/util.js"></script>
             <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
             <script src="assets/js/main.js"></script>
+
+            <!-- Super Simple Slider JS -->
+            <script src="assets/js/sss/sss.js"></script>
+            <script src="assets/js/jquery.slider.js"></script>
+
+            <script src="assets/js/swiper.min.js"></script>
+            <script src="assets/js/swiper.js"></script>
     </body>
 </html>

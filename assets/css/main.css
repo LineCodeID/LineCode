@@ -3763,3 +3763,10 @@
 	section.box p{
 		text-align: justify !important;
 	}
+	div.features-row ul.alt li{
+		text-align: justify;
+		
+	}
+	div.features-row ul.alt li i{
+		font-size: .7em;
+	}
