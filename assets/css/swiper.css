@@ -12,7 +12,7 @@
 .swiper-container {
   width: 100%;
   /* margin: 0 auto; */
-  margin-top: 30px;
+  /* margin-top: 30px; */
   position: relative;
   overflow: hidden;
   list-style: none;
@@ -20,6 +20,18 @@
   /* Fix of Webkit flickering */
   z-index: 1;
 }
+
+.info {
+  margin-top: -30px;
+  padding: 3em;
+  text-align: justify;
+}
+
+.info h3 {
+  margin-top: -20px;
+  text-align: center;
+}
+
 .swiper-container-no-flexbox .swiper-slide {
   float: left;
 }
