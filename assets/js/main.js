@@ -1,7 +1,7 @@
 /*
-	Alpha by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	 LinecodeID
+   html5up| @Deryck_luis
+   Free for personal and commercial use under the CCA 3.0 license (html5/license)
 */
 
 (function($) {
@@ -21,7 +21,9 @@
 			$body = $('body'),
 			$header = $('#header'),
 			$banner = $('#banner');
+			$banner1 = $('#banner1');
 			$banner2 = $('#banner2');
+			$banner3 = $('#banner3');
 
 		// Fix: Placeholder polyfill.
 			$('form').placeholder();
@@ -95,10 +97,33 @@
 				});
 
 			}
+	    // Header.
+		// If the header is using "alt" styling and #banner is present, use scrollwatch
+		// to revert it back to normal styling once the user scrolls past the banner.
+		// Note: This is disabled on mobile devices.
+
+		if (!skel.vars.mobile
+			&&	$header.hasClass('alt')
+			&&	$banner1.length > 0) {
+
+				$window.on('load', function() {
+
+					$banner1.scrollwatch({
+						delay:		0,
+						range:		0.5,
+						anchor:		'top',
+						on:			function() { $header.addClass('alt reveal'); },
+						off:		function() { $header.removeClass('alt'); }
+					});
+
+				});
+
+			}
 			// Header.
 		// If the header is using "alt" styling and #banner is present, use scrollwatch
 		// to revert it back to normal styling once the user scrolls past the banner.
 		// Note: This is disabled on mobile devices.
+
 		if (!skel.vars.mobile
 			&&	$header.hasClass('alt')
 			&&	$banner2.length > 0) {
@@ -116,6 +141,29 @@
 				});
 
 			}
+			// Header.
+		// If the header is using "alt" styling and #banner is present, use scrollwatch
+		// to revert it back to normal styling once the user scrolls past the banner.
+		// Note: This is disabled on mobile devices.
+
+		if (!skel.vars.mobile
+			&&	$header.hasClass('alt')
+			&&	$banner3.length > 0) {
+
+				$window.on('load', function() {
+
+					$banner3.scrollwatch({
+						delay:		0,
+						range:		0.5,
+						anchor:		'top',
+						on:			function() { $header.addClass('alt reveal'); },
+						off:		function() { $header.removeClass('alt'); }
+					});
+
+				});
+
+			}
+
 
 	});
 

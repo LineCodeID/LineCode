@@ -3025,7 +3025,7 @@
 				z-index: 0;
 			}
 
-/* Banner */
+/* Banner index*/
 
 	#banner {
 		background-attachment: scroll, fixed;
@@ -3090,7 +3090,73 @@
 				background: #fff;
 				color: #666 !important;
 			}
+/* Banner Diseño Web*/
+#banner1 {
+	background-attachment: scroll, fixed;
+	background-color: #666666;
+	background-image: url("images/overlay.png"), url("../../images/servicios/banner-d.jpg");
+	background-position: top left, center center;
+	background-repeat: repeat, no-repeat;
+	background-size: auto, cover;
+	color: #fff;
+	padding: 12em 0 20em 0;
+	text-align: center;
+}
+#banner1 :last-child {
+	margin-bottom: 0;
+}
 
+#banner1 h2, #banner1 h3, #banner1 h4, #banner1 h5, #banner1 h6 {
+	color: #fff;
+}
+#banner1 h2 b{
+	color: #fff;
+}
+
+#banner1 h2 {
+	font-size: 3.5em;
+	line-height: 1em;
+	margin: 0 0 0.5em 0;
+	padding: 0;
+}
+
+#banner1p {
+	font-size: 1.25em;
+	margin-bottom: 1.75em;
+}
+
+#banner1 input[type="submit"],
+#banner1 input[type="reset"],
+#banner1 input[type="button"],
+#banner1 .button {
+	background-color: transparent;
+	box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.5);
+	color: #fff;
+	min-width: 12em;
+}
+
+	#banner1 input[type="submit"]:hover,
+	#banner1 input[type="reset"]:hover,
+	#banner1 input[type="button"]:hover,
+	#banner1 .button:hover {
+		background-color: rgba(255, 255, 255, 0.1);
+	}
+
+	#banner1 input[type="submit"]:active,
+	#banner1 input[type="reset"]:active,
+	#banner1 input[type="button"]:active,
+	#banner1 .button:active {
+		background-color: rgba(255, 255, 255, 0.2);
+	}
+
+	#banner1 input[type="submit"].special,
+	#banner1 input[type="reset"].special,
+	#banner1 input[type="button"].special,
+	#banner1 .button.special {
+		background: #fff;
+		color: #666 !important;
+	}
+/* Banner E-commerce*/
 	#banner2 {
 		background-attachment: scroll, fixed;
 		background-color: #666666;
@@ -3156,7 +3222,70 @@
 			background: #fff;
 			color: #666 !important;
 		}
+/* Banner MArketing Digital*/
+#banner3 {
+	background-attachment: scroll, fixed;
+	background-color: #666;
+	background-image: url("images/overlay.png"), url("../../images/banner.jpg");
+	background-position: top left,center center;
+	background-repeat: repeat,no-repeat;
+	background-size: auto, cover;
+	color: #fff;
+	padding: 12em 0 20em 0;
+	text-align: center;
+}
 
+	#banner3 :last-child {
+		margin-bottom: 0;
+	}
+
+	#banner3 h2, #banner3 h3, #banner3 h4, #banner3 h5, #banner3 h6 {
+		color: #fff;
+	}
+
+	#banner3 h2 {
+		font-size: 3.5em;
+		line-height: 1em;
+		margin: 0 0 0.5em 0;
+		padding: 0;
+	}
+
+	#banner3 p {
+		font-size: 1.25em;
+		margin-bottom: 1.75em;
+	}
+
+	#banner3 input[type="submit"],
+	#banner3 input[type="reset"],
+	#banner3 input[type="button"],
+	#banner3 .button {
+		background-color: transparent;
+		box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.5);
+		color: #fff;
+		min-width: 12em;
+	}
+
+		#banner3 input[type="submit"]:hover,
+		#banner3 input[type="reset"]:hover,
+		#banner3 input[type="button"]:hover,
+		#banner3 .button:hover {
+			background-color: rgba(255, 255, 255, 0.1);
+		}
+
+		#banner3 input[type="submit"]:active,
+		#banner3 input[type="reset"]:active,
+		#banner3 input[type="button"]:active,
+		#banner3 .button:active {
+			background-color: rgba(255, 255, 255, 0.2);
+		}
+
+		#banner3 input[type="submit"].special,
+		#banner3 input[type="reset"].special,
+		#banner3 input[type="button"].special,
+		#banner3 .button.special {
+			background: #fff;
+			color: #666 !important;
+		}
 /* Main */
 
 	#main {
@@ -3310,11 +3439,8 @@
 			}
 
 		/* Banner */
-
-			#banner {
-				padding: 10em 0 18em 0;
-			}
-			#banner2 {
+		/* Banner index */
+			#banner, #banner1, #banner2, #banner3 {
 				padding: 10em 0 18em 0;
 			}
 
@@ -3338,17 +3464,14 @@
 
 		/* Banner */
 
-			#banner {
-				background-attachment: scroll;
-			}
-			#banner2 {
+			#banner, #banner1, #banner2, #banner3 {
 				background-attachment: scroll;
 			}
 
-				#banner h2 {
-					font-size: 3.5em;
-				}
-				#banner2 h2 {
+				#banner h2,
+				#banner1 h2,
+				#banner2 h2,
+				#banner3 h2{
 					font-size: 3.5em;
 				}
 
@@ -3675,24 +3798,15 @@
 
 		/* Banner */
 
-			#banner {
-				padding: 4em 0;
-			}
-			#banner2 {
+			#banner, #banner1, #banner2, #banner3 {
 				padding: 4em 0;
 			}
 
-				#banner h2 {
-					font-size: 2.25em;
-				}
-				#banner2 h2 {
+				#banner h2, #banner1 h2, #banner2 h2, #banner3 h2 {
 					font-size: 2.25em;
 				}
 
-				#banner p {
-					font-size: 1.25em;
-				}
-				#banner2 p {
+				#banner p, #banner1 p, #banner2 p, #banner3 p {
 					font-size: 1.25em;
 				}
 
@@ -3826,10 +3940,7 @@
 
 		/* Banner */
 
-			#banner {
-				padding: 5em 1em 4em 1em;
-			}
-			#banner2 {
+			#banner, #banner1, #banner2, #banner3 {
 				padding: 5em 1em 4em 1em;
 			}
 
