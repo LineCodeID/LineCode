@@ -3053,6 +3053,9 @@
 			margin: 0 0 0.5em 0;
 			padding: 0;
 		}
+		#banner h2 b{
+			color: #fff;
+		}
 
 		#banner p {
 			font-size: 1.25em;
