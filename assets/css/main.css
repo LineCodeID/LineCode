@@ -3987,3 +3987,6 @@
 	span.responsivo{
 	 font-size: 5em;
 	}
+	div.row{
+		display: block;
+	}
