@@ -3976,3 +3976,14 @@
 	ul.alt li.link{
 		font-size: .7em;
 	}
+	.responsive{
+		padding: 10px;
+	}
+	div.swiper-slide{
+		margin: 30px auto;
+		
+	}
+	
+	span.responsivo{
+	 font-size: 5em;
+	}
