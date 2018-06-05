@@ -2,9 +2,9 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 
 /*
-	Alpha by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+   LinecodeID
+   html5up| @Deryck_luis
+   Free for personal and commercial use under the CCA 3.0 license (html5/license)
 */
 
 /* Reset */
@@ -3225,33 +3225,35 @@
 			background: #fff;
 			color: #666 !important;
 		}
-/* Banner MArketing Digital*/
-#banner3 {
-	background-attachment: scroll, fixed;
-	background-color: #666;
-	background-image: url("images/overlay.png"), url("../../images/banner.jpg");
-	background-position: top left,center center;
-	background-repeat: repeat,no-repeat;
-	background-size: auto, cover;
-	color: #fff;
-	padding: 12em 0 20em 0;
-	text-align: center;
-}
+		/* Banner MArketing Digital*/
+		#banner3 {
+			background-attachment: scroll, fixed;
+			background-color: #666666;
+			background-image: url("images/overlay.png"), url("../../images/servicios/bannerm.jpg");
+			background-position: top left, center center;
+			background-repeat: repeat, no-repeat;
+			background-size: auto, cover;
+			color: #fff;
+			padding: 12em 0 20em 0;
+			text-align: center;
+		}
 
-	#banner3 :last-child {
-		margin-bottom: 0;
-	}
+		#banner3 :last-child {
+			margin-bottom: 0;
+		}
 
-	#banner3 h2, #banner3 h3, #banner3 h4, #banner3 h5, #banner3 h6 {
-		color: #fff;
-	}
-
-	#banner3 h2 {
-		font-size: 3.5em;
-		line-height: 1em;
-		margin: 0 0 0.5em 0;
-		padding: 0;
-	}
+		#banner3 h2, #banner3 h3, #banner3 h4, #banner3 h5, #banner3 h6 {
+			color: #fff;
+		}
+		#banner3 h2 b{
+			color: #fff;
+		}
+		#banner3 h2 {
+			font-size: 3.5em;
+			line-height: 1em;
+			margin: 0 0 0.5em 0;
+			padding: 0;
+		}
 
 	#banner3 p {
 		font-size: 1.25em;

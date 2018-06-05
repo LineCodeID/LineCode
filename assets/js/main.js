@@ -1,7 +1,7 @@
 /*
-	 LinecodeID
-   html5up| @Deryck_luis
-   Free for personal and commercial use under the CCA 3.0 license (html5/license)
+	LinecodeID
+	html5up| @Deryck_luis
+	Free for personal and commercial use under the CCA 3.0 license (html5/license)
 */
 
 (function($) {
