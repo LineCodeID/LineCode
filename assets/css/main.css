@@ -3983,10 +3983,18 @@
 		margin: 30px auto;
 		
 	}
-	
+	div.row div.line{
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+
 	span.responsivo{
 	 font-size: 5em;
 	}
-	div.row{
-		display: block;
+	div.slider{
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	ol.alt{
+		text-align: left;
 	}
