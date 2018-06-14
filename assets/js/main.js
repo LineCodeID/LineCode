@@ -24,6 +24,7 @@
 			$banner1 = $('#banner1');
 			$banner2 = $('#banner2');
 			$banner3 = $('#banner3');
+			$banner4 = $('#banner4');
 
 		// Fix: Placeholder polyfill.
 			$('form').placeholder();
@@ -153,6 +154,28 @@
 				$window.on('load', function() {
 
 					$banner3.scrollwatch({
+						delay:		0,
+						range:		0.5,
+						anchor:		'top',
+						on:			function() { $header.addClass('alt reveal'); },
+						off:		function() { $header.removeClass('alt'); }
+					});
+
+				});
+
+			}
+			// Header.
+		// If the header is using "alt" styling and #banner is present, use scrollwatch
+		// to revert it back to normal styling once the user scrolls past the banner.
+		// Note: This is disabled on mobile devices.
+
+		if (!skel.vars.mobile
+			&&	$header.hasClass('alt')
+			&&	$banner4.length > 0) {
+
+				$window.on('load', function() {
+
+					$banner4.scrollwatch({
 						delay:		0,
 						range:		0.5,
 						anchor:		'top',
