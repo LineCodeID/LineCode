@@ -12,48 +12,62 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
 	</head>
-	<body>
-		<div id="page-wrapper">
-			<!-- Header -->
-			<header id="header">
+	<body class="landing">
+			<!-- Load Facebook SDK for JavaScript -->
+			<div id="fb-root"></div>
+			<div id="page-wrapper">
+				<!-- Header -->
+				<header id="header" class="alt">
 					<h1><a href="index.html">LineCode</a> Desarrollando Ideas</h1>
-                    <nav id="nav">
-                        <ul>
-                            <li><a href="index.html" >Inicio</a></li>
-                            <li><a href="generic.html">Nosotros</a></li>
-                            <li><a href="portafolio.html" >Portafolio</a></li>
-                            <li><a href="faqs.html" >Preguntas Frecuentes</a></li>
-                            <li><a href="contact.html" >Contacto</a></li>
-                            <li>
-                                <a href="#" class="icon fa-angle-down">Servicios</a>
-                                <ul>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Inicio</a></li>
+							<li><a href="generic.html">Nosotros</a></li>
+							<li><a href="portafolio.html">Portafolio</a></li>
+							<li><a href="faqs.html">Preguntas Frecuentes</a></li>
+							<li><a href="contact.html">Contacto</a></li>
+							<li><a href="#" class="icon fa-angle-down">Servicios</a>
+								<ul>
 									<li><a href="dweb.html">Desarrollo Web</a></li>
-                                    <li><a href="ecomerce.html">E-Comerce</a></li>
-                                    <li><a href="marketing.html">Marketing Digital</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </nav>
+									<li><a href="ecomerce.html">E-Comerce</a></li>
+									<li><a href="marketing.html">Marketing Digital</a></li>                                
+								</ul>
+							</li>
+						</ul>
+					</nav>
 				</header>
+				<!-- Banner -->
+				<section id="banner4">
+						<h2><b> ¿Estás listo para ver resultados tangibles?</b> </h2>
+						<p>¡Nos encantaría ayudarte!</p>
+				</section>
 			<!-- Main -->
-				<section id="main" class="container 75%">
-					<header>
-						<h2>Contáctenos</h2>
-						<p>Solicita tu cotización HOY</p>
-					</header>
+				<section id="main" class="container">
 					<div class="box">
+						<section>
+							<header class="align-center">
+								<h2>Contáctanos</h2>
+								<p>¡ Solicita tu cotización HOY !</p>
+							</header>
+						</section>
+						
 						<form method="post" action="#">
 							<div class="row uniform 50%">
+
 								<div class="6u 12u(mobilep)">
-									<input type="text" name="name" id="name" value="" placeholder="Name" />
+									<input type="text" name="name" id="name" value="" placeholder="Nombre*" />
+								</div>
+
+								<div class="6u 12u(mobilep)">
+									<input type="email" name="email" id="email" value="" placeholder="Email*" />
+								</div>
+
+								<div class="6u 12u(mobilep)">
+									<input type="text" name="phone" id="phone" value="" placeholder="Telefono*" />
 								</div>
 								<div class="6u 12u(mobilep)">
-									<input type="email" name="email" id="email" value="" placeholder="Email" />
-								</div>
-							</div>
-							<div class="row uniform 50%">
-								<div class="12u">
 									<div class="select-wrapper">
 										<select name="category" id="category">
 											<option value="">- Seleccionar Servicio -</option>
@@ -74,24 +88,25 @@
 										</select>
 									</div>
 								</div>
-							</div>
+							</div><!--row uniform 50%-->
 							<div class="row uniform 50%">
 								<div class="12u">
-									<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
-								</div>
-							</div>
+									<textarea name="message" id="message" placeholder="Mensaje*" rows="6"></textarea>
+								</div><!--12u-->
+							</div><!--row uniform 50 -->
 							<div class="row uniform">
 								<div class="12u">
-									<ul class="actions align-center">
-										<li><input type="submit" value="Enviar mensaje" /></li>
-									</ul>
-								</div>
-							</div>
+										<input type="checkbox" id="human" name="human" checked>
+										<label for="human">Acepto la política de privacidad.</label>
+									<ul class="actions align-center">	
+										<li><input type="submit" value="Enviar" /></li>
+									</ul><!--actions align-center-->
+								</div><!--12u-->
+							</div><!--row uniform-->
 						</form>
 					</div>
+					<p class="icon fa-exclamation-triangle"><b> Atención: </b>Los campos marcados con <b>*</b> son obligatorios. </p>
 				</section>
-
-			<!-- Footer -->
 			<!-- Footer -->
 			<footer id="footer">
                     <ul class="icons">
@@ -107,7 +122,6 @@
                         <li>Lun - Vier: 10:00 hrs - 17:00 hrs </li>
                         <li>Dir: C.3 sur #504 Acajete, Pue.</li>
                         <li>Whatsapp: 223.101.2301</li>
-
                         <li>Design: <a href="index.html">LineCode</a></li>
                     </ul>
                 </footer>

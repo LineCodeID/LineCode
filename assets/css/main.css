@@ -1792,7 +1792,7 @@
 /* Basic */
 
 	body {
-		background: #f0f0f0;
+		background: #e4e4e4;
 	}
 
 	body, input, select, textarea {
@@ -3093,18 +3093,18 @@
 				background: #fff;
 				color: #666 !important;
 			}
-/* Banner Diseño Web*/
-#banner1 {
-	background-attachment: scroll, fixed;
-	background-color: #666666;
-	background-image: url("images/overlay.png"), url("../../images/servicios/banner-d.jpg");
-	background-position: top left, center center;
-	background-repeat: repeat, no-repeat;
-	background-size: auto, cover;
-	color: #fff;
-	padding: 12em 0 20em 0;
-	text-align: center;
-}
+			/* Banner Diseño Web*/
+			#banner1 {
+				background-attachment: scroll, fixed;
+				background-color: #666666;
+				background-image: url("images/overlay.png"), url("../../images/servicios/banner-d.jpg");
+				background-position: top left, center center;
+				background-repeat: repeat, no-repeat;
+				background-size: auto, cover;
+				color: #fff;
+				padding: 12em 0 20em 0;
+				text-align: center;
+			}
 #banner1 :last-child {
 	margin-bottom: 0;
 }
@@ -3291,6 +3291,73 @@
 			background: #fff;
 			color: #666 !important;
 		}
+		/*Banner Contacto*/
+		#banner4 {
+			background-attachment: scroll, fixed;
+			background-color: #666666;
+			background-image: url("images/overlay.png"), url("../../images/pic02.jpg");
+			background-position: top left, center center;
+			background-repeat: repeat, no-repeat;
+			background-size: auto, cover;
+			color: #fff;
+			padding: 12em 0 20em 0;
+			text-align: center;
+		}
+
+		#banner4 :last-child {
+			margin-bottom: 0;
+		}
+
+		#banner4 h2, #banner4 h3, #banner4 h4, #banner4 h5, #banner4 h6 {
+			color: #fff;
+		}
+		#banner4 h2 b{
+			color: #fff;
+		}
+		#banner4 h2 {
+			font-size: 3.5em;
+			line-height: 1em;
+			margin: 0 0 0.5em 0;
+			padding: 0;
+		}
+
+	#banner4 p {
+		font-size: 1.25em;
+		margin-bottom: 1.75em;
+	}
+
+	#banner4 input[type="submit"],
+	#banner4 input[type="reset"],
+	#banner4 input[type="button"],
+	#banner4 .button {
+		background-color: transparent;
+		box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.5);
+		color: #fff;
+		min-width: 12em;
+	}
+
+		#banner4 input[type="submit"]:hover,
+		#banner4 input[type="reset"]:hover,
+		#banner4 input[type="button"]:hover,
+		#banner4 .button:hover {
+			background-color: rgba(255, 255, 255, 0.1);
+		}
+
+		#banner4 input[type="submit"]:active,
+		#banner4 input[type="reset"]:active,
+		#banner4 input[type="button"]:active,
+		#banner4 .button:active {
+			background-color: rgba(255, 255, 255, 0.2);
+		}
+
+		#banner4 input[type="submit"].special,
+		#banner4 input[type="reset"].special,
+		#banner4 input[type="button"].special,
+		#banner4 .button.special {
+			background: #fff;
+			color: #666 !important;
+		}
+		
 /* Main */
 
 	#main {
@@ -3445,7 +3512,7 @@
 
 		/* Banner */
 		/* Banner index */
-			#banner, #banner1, #banner2, #banner3 {
+			#banner, #banner1, #banner2, #banner3, #banner4 {
 				padding: 10em 0 18em 0;
 			}
 
@@ -3469,14 +3536,15 @@
 
 		/* Banner */
 
-			#banner, #banner1, #banner2, #banner3 {
+			#banner, #banner1, #banner2, #banner3, #banner4{
 				background-attachment: scroll;
 			}
 
 				#banner h2,
 				#banner1 h2,
 				#banner2 h2,
-				#banner3 h2{
+				#banner3 h2,
+				#banner4 h2{
 					font-size: 3.5em;
 				}
 
@@ -3803,15 +3871,15 @@
 
 		/* Banner */
 
-			#banner, #banner1, #banner2, #banner3 {
+			#banner, #banner1, #banner2, #banner3, #banner4 {
 				padding: 4em 0;
 			}
 
-				#banner h2, #banner1 h2, #banner2 h2, #banner3 h2 {
+				#banner h2, #banner1 h2, #banner2 h2, #banner3 h2, #banner4 h2{
 					font-size: 2.25em;
 				}
 
-				#banner p, #banner1 p, #banner2 p, #banner3 p {
+				#banner p, #banner1 p, #banner2 p, #banner3 p, #banner4 p {
 					font-size: 1.25em;
 				}
 
@@ -3945,7 +4013,7 @@
 
 		/* Banner */
 
-			#banner, #banner1, #banner2, #banner3 {
+			#banner, #banner1, #banner2, #banner3, #banner4{
 				padding: 5em 1em 4em 1em;
 			}
 
