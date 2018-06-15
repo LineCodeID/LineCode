@@ -3038,6 +3038,54 @@
 		padding: 12em 0 20em 0;
 		text-align: center;
 	}
+	/* Banner Diseño Web*/
+	#banner1 {
+		background-attachment: scroll, fixed;
+		background-color: #666666;
+		background-image: url("images/overlay.png"), url("../../images/servicios/banner-d.jpg");
+		background-position: top left, center center;
+		background-repeat: repeat, no-repeat;
+		background-size: auto, cover;
+		color: #fff;
+		padding: 12em 0 20em 0;
+		text-align: center;
+	}
+	/* Banner E-commerce*/
+	#banner2 {
+		background-attachment: scroll, fixed;
+		background-color: #666666;
+		background-image: url("images/overlay.png"), url("../../images/servicios/bannere-c.jpg");
+		background-position: top left, center center;
+		background-repeat: repeat, no-repeat;
+		background-size: auto, cover;
+		color: #fff;
+		padding: 12em 0 20em 0;
+		text-align: center;
+	}
+	/* Banner MArketing Digital*/
+	#banner3 {
+		background-attachment: scroll, fixed;
+		background-color: #666666;
+		background-image: url("images/overlay.png"), url("../../images/servicios/bannerm.jpg");
+		background-position: top left, center center;
+		background-repeat: repeat, no-repeat;
+		background-size: auto, cover;
+		color: #fff;
+		padding: 12em 0 20em 0;
+		text-align: center;
+	}
+	/*Banner Contacto*/
+	#banner4 {
+		background-attachment: scroll, fixed;
+		background-color: #666666;
+		background-image: url("images/overlay.png"), url("../../images/pic02.jpg");
+		background-position: top left, center center;
+		background-repeat: repeat, no-repeat;
+		background-size: auto, cover;
+		color: #fff;
+		padding: 12em 0 20em 0;
+		text-align: center;
+	}
 
 		#banner :last-child {
 			margin-bottom: 0;
@@ -3094,17 +3142,6 @@
 				color: #666 !important;
 			}
 			/* Banner Diseño Web*/
-			#banner1 {
-				background-attachment: scroll, fixed;
-				background-color: #666666;
-				background-image: url("images/overlay.png"), url("../../images/servicios/banner-d.jpg");
-				background-position: top left, center center;
-				background-repeat: repeat, no-repeat;
-				background-size: auto, cover;
-				color: #fff;
-				padding: 12em 0 20em 0;
-				text-align: center;
-			}
 #banner1 :last-child {
 	margin-bottom: 0;
 }
@@ -3160,17 +3197,6 @@
 		color: #666 !important;
 	}
 /* Banner E-commerce*/
-	#banner2 {
-		background-attachment: scroll, fixed;
-		background-color: #666666;
-		background-image: url("images/overlay.png"), url("../../images/servicios/bannere-c.jpg");
-		background-position: top left, center center;
-		background-repeat: repeat, no-repeat;
-		background-size: auto, cover;
-		color: #fff;
-		padding: 12em 0 20em 0;
-		text-align: center;
-	}
 	#banner2 :last-child {
 		margin-bottom: 0;
 	}
@@ -3226,17 +3252,6 @@
 			color: #666 !important;
 		}
 		/* Banner MArketing Digital*/
-		#banner3 {
-			background-attachment: scroll, fixed;
-			background-color: #666666;
-			background-image: url("images/overlay.png"), url("../../images/servicios/bannerm.jpg");
-			background-position: top left, center center;
-			background-repeat: repeat, no-repeat;
-			background-size: auto, cover;
-			color: #fff;
-			padding: 12em 0 20em 0;
-			text-align: center;
-		}
 
 		#banner3 :last-child {
 			margin-bottom: 0;
@@ -3292,17 +3307,7 @@
 			color: #666 !important;
 		}
 		/*Banner Contacto*/
-		#banner4 {
-			background-attachment: scroll, fixed;
-			background-color: #666666;
-			background-image: url("images/overlay.png"), url("../../images/pic02.jpg");
-			background-position: top left, center center;
-			background-repeat: repeat, no-repeat;
-			background-size: auto, cover;
-			color: #fff;
-			padding: 12em 0 20em 0;
-			text-align: center;
-		}
+		
 
 		#banner4 :last-child {
 			margin-bottom: 0;
@@ -4065,4 +4070,9 @@
 	}
 	ol.alt{
 		text-align: left;
+	}
+	section.box .porta span img,
+	section.box .porta h2,{
+		margin: 0 auto;
+		padding: 0;
 	}
