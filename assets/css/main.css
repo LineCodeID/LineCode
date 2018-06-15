@@ -3846,9 +3846,10 @@
 /*Text LineCode */
 	section.box p,
 	div.box p,
-	div.row{
+	div.row p{
 		text-align: justify !important;
 	}
+
 	div.features-row ul.alt li{
 		text-align: justify;
 
@@ -3869,6 +3870,7 @@
 	div.row div.line{
 		margin-top: 25px;
 		margin-bottom: 25px;
+		
 	}
 
 	span.responsivo{
