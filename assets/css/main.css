@@ -3087,282 +3087,90 @@
 		text-align: center;
 	}
 
-		#banner :last-child {
+		#banner :last-child,
+		#banner1 :last-child,
+		#banner2 :last-child,
+		#banner3 :last-child,
+		#banner4 :last-child
+		{
 			margin-bottom: 0;
 		}
 
-		#banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
+		#banner h2, #banner h3, #banner h4, #banner h5, #banner h6,
+		#banner1 h2, #banner1 h3, #banner1 h4, #banner1 h5, #banner1 h6,
+		#banner2 h2, #banner2 h3, #banner2 h4, #banner2 h5, #banner2 h6,
+		#banner3 h2, #banner3 h3, #banner3 h4, #banner3 h5, #banner3 h6,
+		#banner4 h2, #banner4 h3, #banner4 h4, #banner4 h5, #banner4 h6
+		{
 			color: #fff;
 		}
 
-		#banner h2 {
+		#banner h2,
+		#banner1 h2,
+		#banner2 h2,
+		#banner3 h2,
+		#banner4 h2 
+		{
 			font-size: 3.5em;
 			line-height: 1em;
 			margin: 0 0 0.5em 0;
 			padding: 0;
 		}
-		#banner h2 b{
+		#banner h2 b,
+		#banner1 h2 b,
+		#banner2 h2 b,
+		#banner3 h2 b,
+		#banner4 h2 b 
+		{
 			color: #fff;
 		}
 
-		#banner p {
+		#banner p, #banner1 p, #banner2 p, #banner3 p, #banner4 p
+		{
 			font-size: 1.25em;
 			margin-bottom: 1.75em;
 		}
 
-		#banner input[type="submit"],
-		#banner input[type="reset"],
-		#banner input[type="button"],
-		#banner .button {
+		#banner input[type="submit"], #banner input[type="reset"], #banner input[type="button"], #banner .button, 
+		#banner1 input[type="submit"], #banner1 input[type="reset"], #banner1 input[type="button"], #banner1 .button,
+		#banner2 input[type="submit"], #banner2 input[type="reset"], #banner2 input[type="button"], #banner2 .button,
+		#banner3 input[type="submit"], #banner3 input[type="reset"], #banner3 input[type="button"], #banner3 .button,
+		#banner4 input[type="submit"], #banner4 input[type="reset"], #banner4 input[type="button"], #banner4 .button 
+		{
 			background-color: transparent;
 			box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.5);
 			color: #fff;
 			min-width: 12em;
 		}
 
-			#banner input[type="submit"]:hover,
-			#banner input[type="reset"]:hover,
-			#banner input[type="button"]:hover,
-			#banner .button:hover {
+			#banner input[type="submit"]:hover, #banner input[type="reset"]:hover, #banner input[type="button"]:hover, #banner .button:hover,
+			#banner1 input[type="submit"]:hover, #banner1 input[type="reset"]:hover, #banner1 input[type="button"]:hover, #banner1 .button:hover,
+			#banner2 input[type="submit"]:hover, #banner2 input[type="reset"]:hover, #banner2 input[type="button"]:hover, #banner2 .button:hover,
+			#banner3 input[type="submit"]:hover, #banner3 input[type="reset"]:hover, #banner3 input[type="button"]:hover, #banner3 .button:hover,
+			#banner4 input[type="submit"]:hover, #banner4 input[type="reset"]:hover, #banner4 input[type="button"]:hover, #banner4 .button:hover 
+			{
 				background-color: rgba(255, 255, 255, 0.1);
 			}
 
-			#banner input[type="submit"]:active,
-			#banner input[type="reset"]:active,
-			#banner input[type="button"]:active,
-			#banner .button:active {
+			#banner input[type="submit"]:active, #banner input[type="reset"]:active, #banner input[type="button"]:active, #banner .button:active,
+			#banner1 input[type="submit"]:active, #banner1 input[type="reset"]:active, #banner1 input[type="button"]:active, #banner1 .button:active,
+			#banner2 input[type="submit"]:active, #banner2 input[type="reset"]:active, #banner2 input[type="button"]:active, #banner2 .button:active,
+			#banner3 input[type="submit"]:active, #banner3 input[type="reset"]:active, #banner3 input[type="button"]:active, #banner3 .button:active,
+			#banner4 input[type="submit"]:active, #banner4 input[type="reset"]:active, #banner4 input[type="button"]:active, #banner4 .button:active 
+			{
 				background-color: rgba(255, 255, 255, 0.2);
 			}
 
-			#banner input[type="submit"].special,
-			#banner input[type="reset"].special,
-			#banner input[type="button"].special,
-			#banner .button.special {
+			#banner input[type="submit"].special, #banner input[type="reset"].special, #banner input[type="button"].special, #banner .button.special,
+			#banner1 input[type="submit"].special, #banner1 input[type="reset"].special, #banner1 input[type="button"].special, #banner1 .button.special,
+			#banner2 input[type="submit"].special, #banner2 input[type="reset"].special, #banner2 input[type="button"].special, #banner2 .button.special,
+			#banner3 input[type="submit"].special, #banner3 input[type="reset"].special, #banner3 input[type="button"].special, #banner3 .button.special,
+			#banner4 input[type="submit"].special, #banner4 input[type="reset"].special, #banner4 input[type="button"].special, #banner4 .button.special,
+			{
 				background: #fff;
 				color: #666 !important;
 			}
-			/* Banner Diseño Web*/
-#banner1 :last-child {
-	margin-bottom: 0;
-}
-
-#banner1 h2, #banner1 h3, #banner1 h4, #banner1 h5, #banner1 h6 {
-	color: #fff;
-}
-#banner1 h2 b{
-	color: #fff;
-}
-
-#banner1 h2 {
-	font-size: 3.5em;
-	line-height: 1em;
-	margin: 0 0 0.5em 0;
-	padding: 0;
-}
-
-#banner1p {
-	font-size: 1.25em;
-	margin-bottom: 1.75em;
-}
-
-#banner1 input[type="submit"],
-#banner1 input[type="reset"],
-#banner1 input[type="button"],
-#banner1 .button {
-	background-color: transparent;
-	box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.5);
-	color: #fff;
-	min-width: 12em;
-}
-
-	#banner1 input[type="submit"]:hover,
-	#banner1 input[type="reset"]:hover,
-	#banner1 input[type="button"]:hover,
-	#banner1 .button:hover {
-		background-color: rgba(255, 255, 255, 0.1);
-	}
-
-	#banner1 input[type="submit"]:active,
-	#banner1 input[type="reset"]:active,
-	#banner1 input[type="button"]:active,
-	#banner1 .button:active {
-		background-color: rgba(255, 255, 255, 0.2);
-	}
-
-	#banner1 input[type="submit"].special,
-	#banner1 input[type="reset"].special,
-	#banner1 input[type="button"].special,
-	#banner1 .button.special {
-		background: #fff;
-		color: #666 !important;
-	}
-/* Banner E-commerce*/
-	#banner2 :last-child {
-		margin-bottom: 0;
-	}
-
-	#banner2 h2, #banner2 h3, #banner2 h4, #banner2 h5, #banner2 h6 {
-		color: #fff;
-	}
-	#banner2 h2 b{
-		color: #fff;
-	}
-
-	#banner2 h2 {
-		font-size: 3.5em;
-		line-height: 1em;
-		margin: 0 0 0.5em 0;
-		padding: 0;
-	}
-
-	#banner2 p {
-		font-size: 1.25em;
-		margin-bottom: 1.75em;
-	}
-
-	#banner2 input[type="submit"],
-	#banner2 input[type="reset"],
-	#banner2 input[type="button"],
-	#banner2 .button {
-		background-color: transparent;
-		box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.5);
-		color: #fff;
-		min-width: 12em;
-	}
-
-		#banner2 input[type="submit"]:hover,
-		#banner2 input[type="reset"]:hover,
-		#banner2 input[type="button"]:hover,
-		#banner2 .button:hover {
-			background-color: rgba(255, 255, 255, 0.1);
-		}
-
-		#banner2 input[type="submit"]:active,
-		#banner2 input[type="reset"]:active,
-		#banner2 input[type="button"]:active,
-		#banner2 .button:active {
-			background-color: rgba(255, 255, 255, 0.2);
-		}
-
-		#banner2 input[type="submit"].special,
-		#banner2 input[type="reset"].special,
-		#banner2 input[type="button"].special,
-		#banner2 .button.special {
-			background: #fff;
-			color: #666 !important;
-		}
-		/* Banner MArketing Digital*/
-
-		#banner3 :last-child {
-			margin-bottom: 0;
-		}
-
-		#banner3 h2, #banner3 h3, #banner3 h4, #banner3 h5, #banner3 h6 {
-			color: #fff;
-		}
-		#banner3 h2 b{
-			color: #fff;
-		}
-		#banner3 h2 {
-			font-size: 3.5em;
-			line-height: 1em;
-			margin: 0 0 0.5em 0;
-			padding: 0;
-		}
-
-	#banner3 p {
-		font-size: 1.25em;
-		margin-bottom: 1.75em;
-	}
-
-	#banner3 input[type="submit"],
-	#banner3 input[type="reset"],
-	#banner3 input[type="button"],
-	#banner3 .button {
-		background-color: transparent;
-		box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.5);
-		color: #fff;
-		min-width: 12em;
-	}
-
-		#banner3 input[type="submit"]:hover,
-		#banner3 input[type="reset"]:hover,
-		#banner3 input[type="button"]:hover,
-		#banner3 .button:hover {
-			background-color: rgba(255, 255, 255, 0.1);
-		}
-
-		#banner3 input[type="submit"]:active,
-		#banner3 input[type="reset"]:active,
-		#banner3 input[type="button"]:active,
-		#banner3 .button:active {
-			background-color: rgba(255, 255, 255, 0.2);
-		}
-
-		#banner3 input[type="submit"].special,
-		#banner3 input[type="reset"].special,
-		#banner3 input[type="button"].special,
-		#banner3 .button.special {
-			background: #fff;
-			color: #666 !important;
-		}
-		/*Banner Contacto*/
-		
-
-		#banner4 :last-child {
-			margin-bottom: 0;
-		}
-
-		#banner4 h2, #banner4 h3, #banner4 h4, #banner4 h5, #banner4 h6 {
-			color: #fff;
-		}
-		#banner4 h2 b{
-			color: #fff;
-		}
-		#banner4 h2 {
-			font-size: 3.5em;
-			line-height: 1em;
-			margin: 0 0 0.5em 0;
-			padding: 0;
-		}
-
-	#banner4 p {
-		font-size: 1.25em;
-		margin-bottom: 1.75em;
-	}
-
-	#banner4 input[type="submit"],
-	#banner4 input[type="reset"],
-	#banner4 input[type="button"],
-	#banner4 .button {
-		background-color: transparent;
-		box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.5);
-		color: #fff;
-		min-width: 12em;
-	}
-
-		#banner4 input[type="submit"]:hover,
-		#banner4 input[type="reset"]:hover,
-		#banner4 input[type="button"]:hover,
-		#banner4 .button:hover {
-			background-color: rgba(255, 255, 255, 0.1);
-		}
-
-		#banner4 input[type="submit"]:active,
-		#banner4 input[type="reset"]:active,
-		#banner4 input[type="button"]:active,
-		#banner4 .button:active {
-			background-color: rgba(255, 255, 255, 0.2);
-		}
-
-		#banner4 input[type="submit"].special,
-		#banner4 input[type="reset"].special,
-		#banner4 input[type="button"].special,
-		#banner4 .button.special {
-			background: #fff;
-			color: #666 !important;
-		}
-		
+			
 /* Main */
 
 	#main {
@@ -4036,7 +3844,9 @@
 
 	}
 /*Text LineCode */
-	section.box p{
+	section.box p,
+	div.box p,
+	div.row{
 		text-align: justify !important;
 	}
 	div.features-row ul.alt li{
