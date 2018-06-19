@@ -3078,7 +3078,7 @@
 	#banner4 {
 		background-attachment: scroll, fixed;
 		background-color: #666666;
-		background-image: url("images/overlay.png"), url("../../images/pic02.jpg");
+		background-image: url("images/overlay.png"), url("../../images/servicios/bannercontac.jpg");
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
