@@ -2362,7 +2362,9 @@
 			}
 
 /* Image */
-
+	.logo{
+		max-width: 1%;
+	}
 	.image {
 		border-radius: 6px;
 		border: 0;
@@ -2397,7 +2399,38 @@
 				display: block;
 				width: 100%;
 			}
-
+		/*seccion de proyectos*/
+		.proyecto{
+			position: relative;
+		}
+		.proyecto img{
+			width: 100%;
+			display: block;
+			margin: auto;
+		}
+		.proyecto .grey{
+			position: absolute;
+			margin: 0 auto;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			background-attachment: scroll, fixed;
+			background-color: rgba(0, 0, 0, 0.6);
+			background-image: url("images/overlay.png");
+			background-position: top left,center center;
+			background-repeat: repeat,no-repeat;
+			background-size: auto, cover;
+		}
+		.top{
+			position: absolute;
+			margin: 0 auto;
+			top: 40%;
+			width: 100%;
+			height: 100%;
+		}
+		.proyecto h2 b{
+			color: white;
+		}
 /* List */
 
 	ol {
@@ -3251,13 +3284,13 @@
 
 	#cta {
 		background: grey;
-		color: #f9e5df;
+		color: white;
 		padding: 3.5em 0 4em 0;
 		text-align: center;
 	}
 
 		#cta h2, #cta h3, #cta h4, #cta h5, #cta h6 {
-			color: inherit;
+			color: white;
 		}
 
 		#cta form {
