@@ -3772,9 +3772,7 @@
 /* Mobile (Portrait) */
 
 	@media screen and (max-width: 480px) {
-
 		/* Basic */
-
 			html, body {
 				min-width: 320px;
 			}
