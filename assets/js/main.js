@@ -189,5 +189,14 @@
 
 
 	});
+	$(function() {
+		'use strict'
+
+		$(' ul li a').click(function () {
+			
+			
+			$('.none').slideDown(1000);
+		});
+	});
 
 })(jQuery);

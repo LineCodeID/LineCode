@@ -3922,3 +3922,6 @@
 	.none{
 		display: none;
 	}
+	.red b{
+		color: red;
+	}
