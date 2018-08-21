@@ -114,7 +114,7 @@
 										<input type="checkbox" id="human" name="human" checked>
 										<label for="human">Acepto la política de privacidad.</label>
 									<ul class="actions align-center">	
-										<li > <input type="submit" value="Enviar" /></li>
+										<li > <input type="submit" value="Enviar" onclick="this.disabled=true; this.value='Enviando...'; this.form.submit() " /></li>
 										<li><a> Aplicar Cupon </a></li>
 									</ul><!--actions align-center-->
 								</div><!--12u-->
@@ -127,7 +127,7 @@
 									<input type="text" name="phone" id="phone" value="" placeholder="Codigo de Cupon" />
 								</div>
 								<div class="6u 12u(mobilep)">
-									<input type="submit" value=" Validar " />
+									<input type="submit" value=" Validar" onclick="this.disabled=true; this.value='Validando...'; this.form.submit() "/>
 								</div>	
 							</div> <!--row uniform 50%-->
 						</form>
