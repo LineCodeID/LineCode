@@ -119,7 +119,20 @@
                         </div><!--.line .6u .12u(mobilep)-->
                     </div><!--.row-->
                     <p>En <b> Line Code </b><i> "Desarrollando Ideas" </i> pensamos en ti, por eso contamos con 4 paquetes de desarrollo web, de los cuelaes puedes elegir el que mas se adapte a tus necesidades.</p>
-
+                    
+                        <form ethod="post"  action="#">
+                            <div class="row uniform 50%"><!--la clase none es que se encarga de ocultar el div del cupon-->
+                                <div class="6u 12u(mobilep)">
+                                        <input type="text" name="cupon" id="cupon" value="" placeholder="Codigo de Cupon" />
+                                    
+                                </div>
+                                <div class="6u 12u(mobilep)">
+                                        <input type="submit" value=" Validar Cupon" onclick="this.disabled=true; this.value='Validando...'; this.form.submit() "/>
+                                    
+                                </div>	
+                            </div> <!--row uniform 50%-->
+                        </form>
+                    
                     <div class="features-row">
                         <section>
                             <span class="icon major fa-window-maximize accent2"></span>
@@ -237,6 +250,8 @@
                                 </ul><!--.actions -->
                             </ul><!--.alt-->
                         </section><!--section-->
+                    </div>
+                    <div class="features-row">
                         <section>
                             <span class="icon major fa-cubes accent5"></span>
                             <h3>PLUS</h3>
