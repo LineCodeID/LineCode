@@ -3960,7 +3960,8 @@
 	}
 	div.ava-img img{
 		display: block;
-		max-width: 90%;
+		margin: 0 auto;
+		max-width: 85%;
 		border-radius: 50%;
 	}
 	div.ava-info h2,
